@@ -1,0 +1,336 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1b2731;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 9%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #07111b;
+    padding-top: 6%;
+    color: #ececec;
+    text-shadow: 1px -1px 4px #0d1b2a;
+}
+
+/* ------------------------------------------------- Estilos formulario ------------------------------------------------- */
+
+#formulario {
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgb(1,0,36);
+    background: linear-gradient(0deg, rgba(1,0,36,1) 0%, rgba(11,9,121,1) 32%, rgba(0,151,255,1) 100%); 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#formulario input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#formulario select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#formulario button {
+    background-color:  rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#btn-borrar-tarjeta {
+    margin-top: 10px;
+}
+
+#btn-crear-tarjeta {
+    margin-right: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.contenedor-peliculas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.formulario {
+    width: 80%;
+    height: 600px;
+    left: 10%;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+}
+
+#titulo {
+    display: inline;
+    padding-right: 500px;
+    padding-left: 500px;
+    padding-top: 100px;
+    color: #d6d8de;
+    text-align: center;
+}
+
+.movie {
+    width: 280px;
+    height: 420px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position:center;
+    transition: width 2s, height 2s, margin 2s;
+}
+
+.movie:hover {
+    width: 350px;
+    height: 490px;
+    transition: width 2s, height 2s, margin 2s;
+}
+
+#padrino {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/Elpadrino.webp');
+}
+
+#padrino:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://media.tenor.com/tsHOQ3Rtep8AAAAM/godfather-respect.gif');
+
+}
+
+#saw {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/Saw.webp');
+}
+
+#saw:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://media1.giphy.com/media/XZS5fWhIoJoEo/200w.gif?cid=6c09b952mwco8teua38bz06nhx39u8o3ltze3pn0mj01acji&ep=v1_gifs_search&rid=200w.gif&ct=g');
+}
+
+#barbie {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/Barbie.webp');
+}
+
+#barbie:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://media.tenor.com/A32QYBupfSIAAAAd/barbie-margot-robbie.gif');
+}
+
+#taxi-driver {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/TaxiDriver.jpg');
+}
+
+#taxi-driver:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://media.tenor.com/CMGqnUWJboIAAAAC/taxi-driver.gif');
+}
+
+#club-pelea {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/FightClub.webp');
+}
+
+#club-pelea:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://media.giphy.com/media/zODm7O1bEoYik/giphy.gif');
+}
+
+#monja {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/LaMonja2.webp');
+}
+
+#monja:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://media.tenor.com/6U0SpORSZBgAAAAC/the-nun-terror.gif');
+}
+
+#scarface {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/Scarface.jpg');
+}
+
+#scarface:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.gifer.com/HfF.gif');
+}
+
+#scary-movie {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../imagenes/ScaryMovie.jpg');
+}
+
+#scary-movie:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://68.media.tumblr.com/20483a09ee732668bb4d26a9ca100622/tumblr_o7sew9TjnF1rp0vkjo1_500.gif');
+}
+
+#john-wick {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/JohnWick.png');
+}
+
+#john-wick:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/b2/ea/3d/b2ea3d115d390713ed20604989e21ec3.gif');
+}
+
+#jeepers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/JeepersCreepers.jpg');
+}
+
+#jeepers:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://media0.giphy.com/media/3o6fJc6V49VwDXtiOQ/giphy.gif');
+}
+
+#shrek {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/Shrek.jpg');
+}
+
+#shrek:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://media4.giphy.com/media/TIGP3k4gNAqvza2KJK/giphy.gif');
+}
+
+#diario {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../imagenes/DiarioDeUnaPasion.jpg');
+}
+
+#diario:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://uvn-brightspot.s3.amazonaws.com/assets/vixes/imj/tips-inspirados-en-diario-de-una-pasion-3.gif');
+}
+
+.movie h2 {
+    margin: 10px;
+    height: 78px;
+    word-break:break-all;
+    overflow: hidden;
+    transition: width 2s, height 2s, margin 2s;
+}
+
+.movie:hover h2 {
+    height: 150px;
+    transition: width 2s, height 2s, margin 2s;
+}
+
+.movie img {
+    width: 120px;
+    height: 150px;
+}
+
+.contenido {
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+
+#mensaje-confirmacion,  #mensaje-confirmacion1{
+    display: none;
+    background: linear-gradient(rgba(42, 14, 14, 0.8), rgba(65, 15, 18, 1));
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    outline: none;
+}
+
+#contenido1 {
+    display: block;  
+}
+
+#boton-cerrar, #boton-cerrar1 {
+    display: block;
+    margin: 0 0 0 auto;
+    outline: none;
+    background-color: wheat;
+}
+
+#ingresar-edad, #ingresar-edad1{
+    bottom: -10px;
+}
+
+.menu
+{
+    background: #333;
+}
+
+.btn-menu
+{
+    color: #FFF;
+    font-size: 25px;
+}
+
+.icono a:hover{
+    color: aqua;
+  }
+
+.pie {
+    width: 100%;
+    background-color: rgb(5, 4, 15);
+}
+
+.pie .subpie1{
+    width: 100%;
+    height: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 600px;
+    color: white;
+}
+
+.pie .subpie1 .icono a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #07111b;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie .subpie2{
+    background-color: rgb(5, 4, 15);
+    padding-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
