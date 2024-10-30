@@ -1,0 +1,64 @@
+{
+  "peliculas": [
+    {
+      "id": "padrino",
+      "titulo": "El Padrino",
+      "anio": 1972,
+      "categoria": "Crimen/Drama",
+      "director": "Francis Ford Coppola",
+      "portada": "imagenes/el-padrino.jpg",
+      "gif": "imagenes/el-padrino.gif",
+      "link": "https://enlace-al-video/el-padrino",
+      "imagen": "../imagenes/Elpadrino.webp",
+      "gif_hover": "https://media.tenor.com/tsHOQ3Rtep8AAAAM/godfather-respect.gif"
+    },
+    {
+      "id": "saw",
+      "titulo": "Saw",
+      "anio": 2004,
+      "categoria": "Terror/Suspenso",
+      "director": "James Wan",
+      "portada": "imagenes/saw.jpg",
+      "gif": "imagenes/saw.gif",
+      "link": "https://enlace-al-video/saw",
+      "imagen": "../imagenes/Saw.webp",
+      "gif_hover": "https://media1.giphy.com/media/XZS5fWhIoJoEo/200w.gif?cid=6c09b952mwco8teua38bz06nhx39u8o3ltze3pn0mj01acji&ep=v1_gifs_search&rid=200w.gif&ct=g"
+    },
+    {
+      "id": "barbie",
+      "titulo": "Barbie",
+      "anio": 2023,
+      "categoria": "Comedia/Drama",
+      "director": "Greta Gerwig",
+      "portada": "imagenes/barbie.jpg",
+      "gif": "imagenes/barbie.gif",
+      "link": "https://enlace-al-video/barbie",
+      "imagen": "../imagenes/Barbie.webp",
+      "gif_hover": "https://media.tenor.com/A32QYBupfSIAAAAd/barbie-margot-robbie.gif"
+    },
+    {
+      "id": "taxi-driver",
+      "titulo": "Taxi Driver",
+      "anio": 1976,
+      "categoria": "Drama/Crimen",
+      "director": "Martin Scorsese",
+      "portada": "imagenes/taxi-driver.jpg",
+      "gif": "imagenes/taxi-driver.gif",
+      "link": "https://enlace-al-video/taxi-driver",
+      "imagen": "/imagenes/TaxiDriver.jpg",
+      "gif_hover": "https://media.tenor.com/CMGqnUWJboIAAAAC/taxi-driver.gif"
+    },
+    {
+      "id": "club-pelea",
+      "titulo": "El club de la pelea",
+      "anio": 1999,
+      "categoria": "Suspenso/Drama",
+      "director": "David Fincher",
+      "portada": "imagenes/club-pelea.jpg",
+      "gif": "imagenes/club-pelea.gif",
+      "link": "https://enlace-al-video/club-pelea",
+      "imagen": "../imagenes/FightClub.webp",
+      "gif_hover": "https://media.giphy.com/media/zODm7O1bEoYik/giphy.gif"
+    }
+  ]
+}
